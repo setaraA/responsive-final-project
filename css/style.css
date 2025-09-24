@@ -420,7 +420,7 @@ header .btn-bar{
     display:flex;
     justify-content: space-between;
 }
-
+/* here is the boxs styles*/
 #about #ABOUT .box2 .address{
     color:#f3eded;
     width: 350px;
@@ -876,6 +876,7 @@ header .btn-bar{
     }
 }
 
+/*here it is the circular click here button*/
 #work .click{
     width: 200px;
     height: 200px;
@@ -1008,6 +1009,7 @@ header .btn-bar{
     color: #fff;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     padding: 35px;
     line-height: 35px;
     border-bottom: 1px solid rgba(85, 83, 83, 0.2);
@@ -1019,10 +1021,16 @@ header .btn-bar{
 #services .box .num{
     font-size: 20px;
 }
+
+#services .box .h2{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
  #services .box a{
     text-decoration: none;
     color: white;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
  }
 
@@ -1056,5 +1064,382 @@ header .btn-bar{
     
   }
 
+  #services #working-process{
+    margin-top: 120px;
+    background-color:rgba(59, 58, 58, 0.2) ;
+    padding: 100px 20px;
+    
+  }
 
+  #services #working-process .h2{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500px;
+    margin: 40px auto;
+  }
+
+   #services #working-process .info-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   }
+
+  #services #working-process .box{
+    border: 1px solid rgba(85, 83, 83, 0.2);
+    display: block;
+    border-radius: 10px;
+    padding: 20px 30px;
+    transition: all 0.5s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  #services #working-process .box::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    background-color:rgba(85, 83, 83, 0.2);
+    border-top-left-radius: 150%;
+    transition: all 0.5s ease;
+  }
+
+  #services #working-process .box:hover::after{
+    background-color: #aaff00;
+  }
+   #services #working-process .box:hover{
+    border-color: #aaff00;
+    }
+
+   #services #working-process .box p{
+    line-height: 25px;
+    font-size: 18px;
+    color: #7a7979;
+    margin: 25px auto;
+   }
+
+   #services #working-process .box ul{
+    font-size: 15px;
+    color:#7a7979 ;
+    list-style: none;
+    padding: 0;
+   }
+   #services #working-process .box ul li{
+    margin: 10px 0;
+    position: relative;
+    padding-left: 25px;
+    font-size: 14px;
+   }
  
+   #services #working-process .box ul li::before{
+    content: "";
+    position: absolute;
+    left:0;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    background-color: #aaff00;
+    border-radius: 50%;
+   }
+  
+   #testimonial {
+    margin: 120px 20px;
+   }
+
+   #testimonial .container{
+     background-color: rgba(85, 83, 83, 0.2);
+     margin-top: 50px;
+     padding: 50px 35px;
+   }
+   #testimonial .h1{
+     color:rgb(201, 243, 29);
+    font-family: Caveat, cursive;
+    font-style: italic;
+    font-size: 19px;
+    text-align: center;
+   }
+
+   #testimonial p{
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    margin: 30px auto;
+   }
+
+   #testimonial .container .swiper-wraper p{
+    color: white;
+    
+   }
+
+   #testimonial .pages p{
+     font-size: 25px;
+     font-weight: bold;
+     margin-top: 100px;
+   }
+   #testimonial .accounts{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px;
+    gap: 30px;
+    align-items: center;
+   }
+
+   #testimonial .accounts img:hover {
+  color: #00ff99; /* neon green */
+}
+
+#blog .container{
+    background-color:rgba(85, 83, 83, 0.2) ;
+    margin-top: 170px;
+    padding: 110px 20px;
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+} 
+
+#blog .left{
+    width:35%;
+}
+#blog .left .h1{
+    color:rgb(201, 243, 29);
+    font-family: Caveat, cursive;
+    font-style: italic;
+    font-size: 19px;
+    margin-left: 50px;
+   
+}
+
+#blog .left .h2{
+    color: white;
+    font-size: 55px;
+    font-weight: 500px;
+    margin: 30px auto;
+    letter-spacing: 0.5px;
+}
+
+#blog .left .click{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(201, 243, 29);
+    color: white;
+    text-align: center;
+    padding-top: 75px;
+    border-radius: 50%;
+    border: 1px solid  rgb(201, 243, 29);
+    margin-top: 20px;
+    
+
+}
+
+#blog .left .click a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+#blog .right{
+    margin: auto 20px;
+}
+
+#blog .right .date{
+    color: #706b6b;
+    border: 0.5px solid #706b6b ;
+    font-size: 17px;
+    margin-top: 30px;
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 100px;
+
+}
+#blog .right .box{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(85, 83, 83, 0.2);
+    padding: 40PX 10px;
+    gap: 110px;
+
+}
+
+#blog .right .box a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-weight: 500px;
+    line-height: 40px;
+
+}
+/*#blog .right .box a:hover+img{
+
+    display: block;
+  
+}
+#blog .right .box img{
+    display: none;
+    transition: all 1s ease;
+}*/
+
+
+#blog .right .box .icon{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 12px 20px;   
+    min-width: 60px;
+    height: 60px;
+    margin-top: 40px;
+}
+
+#blog .right .box:hover{
+    border-bottom: 1px solid rgb(201, 243, 29);
+    .icon
+    {border: 1px solid rgb(201, 243, 29);
+    color: rgb(201, 243, 29);}
+    h1{
+        color: rgb(201, 243, 29);
+    }
+}
+
+#contact{
+    margin-top: 100px;
+}
+
+#contact .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact .h1 {
+    font-size: 140px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid  rgba(85, 83, 83, 0.2);
+    margin: 50px 30px;
+    border-radius: 10px;
+}
+
+#contact .left p{
+    color: #ffff;
+    font-size: 26px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+#contact .left a{
+    color: #fff;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+#contact .container .right .box{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#contact .box .facebook{
+    color:#f3eded;
+    width: 320px;
+    border-radius: 10px;
+    height: auto;
+    padding: 27px 20px;
+    margin-top: 30px;
+    line-height: 45px;
+    background-color: rgba(59, 58, 58, 0.2);
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: all  ease;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact .box .facebook a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+#contact .box .facebook {
+    color: #999696;
+}
+
+#contact .box .facebook:hover{
+    background-color:  rgb(201, 243, 29) ;
+}
+
+#contact .box .instagram{
+    color:#f3eded;
+    width: 350px;
+    border-radius: 10px;
+    height: auto;
+    padding: 20px 25px;
+    margin-top: 30px;
+    line-height: 45px;
+    background-color: rgba(59, 58, 58, 0.2);
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: all  ease;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+ #contact .box .instagram a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+ }
+
+#contact .box .instagram{
+    color: #999696;
+}
+
+#contact .box .instagram:hover{
+     background-color: rgba(201, 243, 29) ;
+}
+
+#contact footer{
+    background-color:  rgba(59, 58, 58, 0.2);
+    margin-top: 70px;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+#contact footer .a1{
+    text-decoration: none;
+    color: rgba(201, 243, 29);
+}
+
+#contact .footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#contact .footer .a2 a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#contact footer .button{
+    width: 45px;
+    height: 55px;
+    background-color: rgba(201, 243, 29);
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#contact footer .button svg{
+    color: black;
+    font-size: 30px;
+    margin:10px auto;
+}
+
+
+   
+
