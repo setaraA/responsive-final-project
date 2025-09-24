@@ -258,6 +258,54 @@ header .btn-bar{
     margin-top: 200px;
 }
 
+/* the  slider bar styles*/
+/*
+#home element.style{
+    --transform: none;
+}
+#home .rfm-marquee-container:hover div{
+    animation-play-state: var(--pause-on-hover);
+}
+#home .rfm-child{
+    transform: var(--transform)
+}
+*,::after ::before{
+    box-sizing: border-box;
+}
+#home div{
+    display:block;
+    unicode-bidi:isolate;
+}
+#home .rfm-marquee-container{
+    --pause-on-hover: running;
+    --pause-on-click:running;
+    --width:100%;
+    --transform:none;
+}
+#home .rfm-marquee{
+    --play:running;
+    --direction:normal;
+    --duration:58.46s;
+    --delay:0s;
+    --iteration-count:infinite;
+    --min-width:100%;
+}
+#home .text-slider {
+    padding: 13px 0;
+    font-size: 36px;
+    height: 90px;
+    font-weight: 500px;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+@media (max-width: 1399px){
+   .text-slider{
+    font-size: 36px;
+   } 
+}*/
+#home .
+
 #about .img{
     text-align: center;
     margin-top: 150px;
